@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Creation d'un film</title>
+</head>
+<body>
+    <form th:action="@{/movie/add}" method="post" th:object="${movieForm}">
+        <p>Titre<input type="text" th:field="*{title}"></p>
+        <div th:if="${#fields.hasErrors('title')}" th:errors="*{title}"></div>
+        <p>Genre
+                <select th:field="*{genre}">
+                    <option th:value="COMEDIE" th:text="Comédie"></option>
+                    <option th:value="HORREUR" th:text="Horreur"></option>
+                    <option th:value="THRILLER" th:text="Thriller"></option>
+                    <option th:value="ACTION" th:text="Action"></option>
+                    <option th:value="ROMANTIQUE" th:text="Romantique"></option>
+                    <option th:value="DRAME" th:text="Drame"></option>
+                    <option th:value="ANIMATION" th:text="Animation"></option>
+                </select>
+            </p>
+        <div th:if="${#fields.hasErrors('genre')}" th:errors="*{genre}"></div>
+        <p>Description<textarea type="text" th:field="*{description}"></textarea></p>
+        <div th:if="${#fields.hasErrors('description')}" th:errors="*{description}"></div>
+        <p>Nom<textarea type="text" th:field="*{nom}"></textarea></p>
+        <div th:if="${#fields.hasErrors('nom')}" th:errors="*{nom}"></div>
+        <p>Prenom<textarea type="text" th:field="*{prenom}"></textarea></p>
+        <div th:if="${#fields.hasErrors('prenom')}" th:errors="*{prenom}"></div>
+        <input type="submit"/>
+    </form>
+</body>
+</html>

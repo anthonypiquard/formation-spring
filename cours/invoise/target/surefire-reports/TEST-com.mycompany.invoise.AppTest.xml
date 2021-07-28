@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.mycompany.invoise.AppTest" time="0.029" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/test-classes:/Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/classes:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.6/spring-boot-starter-2.4.6.jar:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot/2.4.6/spring-boot-2.4.6.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-context/5.3.7/spring-context-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-aop/5.3.7/spring-aop-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-beans/5.3.7/spring-beans-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-expression/5.3.7/spring-expression-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.6/spring-boot-autoconfigure-2.4.6.jar:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.6/spring-boot-starter-logging-2.4.6.jar:/Users/anthonypiquard/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/anthonypiquard/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/anthonypiquard/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/anthonypiquard/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/Users/anthonypiquard/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/anthonypiquard/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/anthonypiquard/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-core/5.3.7/spring-core-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-jcl/5.3.7/spring-jcl-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/anthonypiquard/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/anthonypiquard/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/anthonypiquard/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/surefire/surefirebooter16231167918973906999.jar /Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/surefire 2021-06-16T14-50-58_850-jvmRun1 surefire6592930641595947950tmp surefire_015207346942533618297tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/test-classes:/Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/classes:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot-starter/2.4.6/spring-boot-starter-2.4.6.jar:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot/2.4.6/spring-boot-2.4.6.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-context/5.3.7/spring-context-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-aop/5.3.7/spring-aop-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-beans/5.3.7/spring-beans-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-expression/5.3.7/spring-expression-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/2.4.6/spring-boot-autoconfigure-2.4.6.jar:/Users/anthonypiquard/.m2/repository/org/springframework/boot/spring-boot-starter-logging/2.4.6/spring-boot-starter-logging-2.4.6.jar:/Users/anthonypiquard/.m2/repository/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar:/Users/anthonypiquard/.m2/repository/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar:/Users/anthonypiquard/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/anthonypiquard/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.13.3/log4j-to-slf4j-2.13.3.jar:/Users/anthonypiquard/.m2/repository/org/apache/logging/log4j/log4j-api/2.13.3/log4j-api-2.13.3.jar:/Users/anthonypiquard/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/anthonypiquard/.m2/repository/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-core/5.3.7/spring-core-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/springframework/spring-jcl/5.3.7/spring-jcl-5.3.7.jar:/Users/anthonypiquard/.m2/repository/org/yaml/snakeyaml/1.27/snakeyaml-1.27.jar:/Users/anthonypiquard/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/anthonypiquard/.m2/repository/org/hamcrest/hamcrest-core/2.2/hamcrest-core-2.2.jar:/Users/anthonypiquard/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/anthonypiquard"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.11.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/anthonypiquard/Documents/dev/Formation spring/invoise"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/anthonypiquard/Documents/dev/Formation spring/invoise/target/surefire/surefirebooter16231167918973906999.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="user.name" value="anthonypiquard"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.16"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/anthonypiquard/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/2b/q2ll6y5d20985v_l28yxz06h0000gn/T/"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="/Users/anthonypiquard/Documents/dev/Formation spring/invoise"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/anthonypiquard/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.mycompany.invoise.AppTest" time="0.002"/>
+</testsuite>
