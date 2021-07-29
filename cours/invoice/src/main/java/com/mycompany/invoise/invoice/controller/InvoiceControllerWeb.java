@@ -1,5 +1,6 @@
 package com.mycompany.invoise.invoice.controller;
 
+import com.mycompany.invoise.core.entity.invoice.Invoice;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;

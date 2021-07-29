@@ -41,7 +41,7 @@ fetch('invoice')
 
 
 function showDetail(invoiceNumber){
-    fetch(invoiceNumber)
+    fetch("/invoice/"+invoiceNumber)
     .then(res => res.json())
     .then(res => {
         var invoiceDetailNode = document.getElementById('invoice-detail');
@@ -59,6 +59,11 @@ function showDetail(invoiceNumber){
 
         p = document.createElement("p");
         text = document.createTextNode(`Order number: ${res.orderNumber}`);
+        p.appendChild(text);
+        invoiceDetailNode.appendChild(p);
+
+        p = document.createElement("p");
+        text = document.createTextNode(`Country: ${res.customer.address.country}`);
         p.appendChild(text);
         invoiceDetailNode.appendChild(p);
 
